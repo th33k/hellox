@@ -221,18 +221,6 @@ const Sidebar = ({ isVisible }) => {
           <div className="content">
             <h2>📖 About Us</h2>
             <p>
-              We are undergraduate students of the
-              <a
-                href="https://uom.lk/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}
-                University of Moratuwa, Sri Lanka
-              </a>
-              .
-            </p>
-            <p>
               Check out our project on
               <a
                 href="https://github.com/RashmikaDushan/GalaNor-ExoSky"
