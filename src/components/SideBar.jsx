@@ -61,13 +61,33 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>🌌 What is an Exoplanet?</h2>
-            <p><strong>Definition:</strong> An exoplanet is a planet that orbits a star outside our solar system.</p>
-            <p><strong>Description:</strong> Exoplanets come in a wide variety of sizes, from gas giants larger than Jupiter to small, rocky worlds like Earth. They are of great interest in the search for potential habitable worlds beyond our solar system.</p>
-            <p><strong>Related links:</strong></p>
+            <p>
+              <strong>Definition:</strong> An exoplanet is a planet that orbits
+              a star outside our solar system.
+            </p>
+            <p>
+              <strong>Description:</strong> Exoplanets come in a wide variety of
+              sizes, from gas giants larger than Jupiter to small, rocky worlds
+              like Earth. They are of great interest in the search for potential
+              habitable worlds beyond our solar system.
+            </p>
+            <p>
+              <strong>Related links:</strong>
+            </p>
             <ul>
-              <li><a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a></li>
-              <li><a href="https://www.cosmos.esa.int/web/cheops">ESA's Cheops Mission</a></li>
-              <li><a href="https://exoplanetzoo.org/">CSA's Exoplanet Zoo</a></li>
+              <li>
+                <a href="https://exoplanetarchive.ipac.caltech.edu/">
+                  NASA Exoplanet Archive
+                </a>
+              </li>
+              <li>
+                <a href="https://www.cosmos.esa.int/web/cheops">
+                  ESA's Cheops Mission
+                </a>
+              </li>
+              <li>
+                <a href="https://exoplanetzoo.org/">CSA's Exoplanet Zoo</a>
+              </li>
             </ul>
           </div>
         );
@@ -75,11 +95,24 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>🔗 NASA Resources</h2>
-            <p><strong>Description:</strong> Explore cutting-edge resources from NASA to study exoplanets and celestial bodies.</p>
+            <p>
+              <strong>Description:</strong> Explore cutting-edge resources from
+              NASA to study exoplanets and celestial bodies.
+            </p>
             <ul>
-              <li><strong>NASA Exoplanet Archive:</strong> A comprehensive catalog of confirmed exoplanets with detailed information about their properties and host stars.</li>
-              <li><strong>Gaia DR3 Catalog:</strong> A precise three-dimensional database of about one billion stars in our galaxy and beyond.</li>
-              <li><strong>Deep Star Maps 2020:</strong> Example of a detailed sky map constructed from star catalogs.</li>
+              <li>
+                <strong>NASA Exoplanet Archive:</strong> A comprehensive catalog
+                of confirmed exoplanets with detailed information about their
+                properties and host stars.
+              </li>
+              <li>
+                <strong>Gaia DR3 Catalog:</strong> A precise three-dimensional
+                database of about one billion stars in our galaxy and beyond.
+              </li>
+              <li>
+                <strong>Deep Star Maps 2020:</strong> Example of a detailed sky
+                map constructed from star catalogs.
+              </li>
             </ul>
           </div>
         );
@@ -87,10 +120,21 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>🔗 ESA Resources</h2>
-            <p><strong>Description:</strong> Discover European Space Agency tools and datasets for exoplanet research and space exploration.</p>
+            <p>
+              <strong>Description:</strong> Discover European Space Agency tools
+              and datasets for exoplanet research and space exploration.
+            </p>
             <ul>
-              <li><strong>Hack an Exoplanet:</strong> An educational activity allowing access to real-time satellite observation data from ESA's Cheops mission.</li>
-              <li><strong>Human and Robotic Exploration Data Archive:</strong> A collection of results from ESA-funded experiments across various scientific areas and space platforms.</li>
+              <li>
+                <strong>Hack an Exoplanet:</strong> An educational activity
+                allowing access to real-time satellite observation data from
+                ESA's Cheops mission.
+              </li>
+              <li>
+                <strong>Human and Robotic Exploration Data Archive:</strong> A
+                collection of results from ESA-funded experiments across various
+                scientific areas and space platforms.
+              </li>
             </ul>
           </div>
         );
@@ -98,11 +142,24 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>🔗 CSA Resources</h2>
-            <p><strong>Description:</strong> Access Canadian Space Agency resources for astronomy and exoplanet studies.</p>
+            <p>
+              <strong>Description:</strong> Access Canadian Space Agency
+              resources for astronomy and exoplanet studies.
+            </p>
             <ul>
-              <li><strong>Exoplanet Zoo:</strong> An exploration of famous exoplanets and their potential habitability.</li>
-              <li><strong>Canadian Astronomy Data Centre:</strong> A repository of the Government of Canada's astronomy open data.</li>
-              <li><strong>NIRISS Exoplanet Data:</strong> Example data used to detect potentially habitable exoplanets using the NIRISS instrument on the James Webb Space Telescope.</li>
+              <li>
+                <strong>Exoplanet Zoo:</strong> An exploration of famous
+                exoplanets and their potential habitability.
+              </li>
+              <li>
+                <strong>Canadian Astronomy Data Centre:</strong> A repository of
+                the Government of Canada's astronomy open data.
+              </li>
+              <li>
+                <strong>NIRISS Exoplanet Data:</strong> Example data used to
+                detect potentially habitable exoplanets using the NIRISS
+                instrument on the James Webb Space Telescope.
+              </li>
             </ul>
           </div>
         );
@@ -110,12 +167,27 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>📊 Data & Catalogs</h2>
-            <p><strong>Description:</strong> Find comprehensive databases and catalogs for exoplanet and stellar research.</p>
+            <p>
+              <strong>Description:</strong> Find comprehensive databases and
+              catalogs for exoplanet and stellar research.
+            </p>
             <ul>
-              <li><strong>NASA Exoplanet Archive:</strong> Detailed catalog of confirmed exoplanets and their properties.</li>
-              <li><strong>Gaia DR3 Catalog:</strong> Extensive database of stars in and beyond our galaxy.</li>
-              <li><strong>Canadian Astronomy Data Centre:</strong> Repository of Canadian astronomy data.</li>
-              <li><strong>BRITE Constellation Mission Data:</strong> Open light curve data from the BRITE Constellation Mission.</li>
+              <li>
+                <strong>NASA Exoplanet Archive:</strong> Detailed catalog of
+                confirmed exoplanets and their properties.
+              </li>
+              <li>
+                <strong>Gaia DR3 Catalog:</strong> Extensive database of stars
+                in and beyond our galaxy.
+              </li>
+              <li>
+                <strong>Canadian Astronomy Data Centre:</strong> Repository of
+                Canadian astronomy data.
+              </li>
+              <li>
+                <strong>BRITE Constellation Mission Data:</strong> Open light
+                curve data from the BRITE Constellation Mission.
+              </li>
             </ul>
           </div>
         );
@@ -123,14 +195,58 @@ const Sidebar = ({ isVisible }) => {
         return (
           <div className="content">
             <h2>📚 Tutorials & Educational Activities</h2>
-            <p><strong>Description:</strong> Learn how to work with exoplanet data through hands-on tutorials and educational resources.</p>
+            <p>
+              <strong>Description:</strong> Learn how to work with exoplanet
+              data through hands-on tutorials and educational resources.
+            </p>
             <ul>
-              <li><strong>Hack an Exoplanet (ESA):</strong> Educational activity using real-time data from ESA's Cheops mission.</li>
-              <li><strong>James Webb Space Telescope Tutorial:</strong> Guide on how to download and utilize JWST data.</li>
-              <li><strong>BRITE Constellation Mission Tutorial:</strong> Instructions for using open light curve data, which can aid in exoplanet detection.</li>
+              <li>
+                <strong>Hack an Exoplanet (ESA):</strong> Educational activity
+                using real-time data from ESA's Cheops mission.
+              </li>
+              <li>
+                <strong>James Webb Space Telescope Tutorial:</strong> Guide on
+                how to download and utilize JWST data.
+              </li>
+              <li>
+                <strong>BRITE Constellation Mission Tutorial:</strong>{" "}
+                Instructions for using open light curve data, which can aid in
+                exoplanet detection.
+              </li>
             </ul>
           </div>
         );
+      case "about":
+        return (
+          <div className="content">
+            <h2>📖 About Us</h2>
+            <p>
+              We are undergraduate students of the
+              <a
+                href="https://uom.lk/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                University of Moratuwa, Sri Lanka
+              </a>
+              .
+            </p>
+            <p>
+              Check out our project on
+              <a
+                href="https://github.com/RashmikaDushan/GalaNor-ExoSky"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                GitHub
+              </a>
+              .
+            </p>
+          </div>
+        );
+
       default:
         return null;
     }
@@ -201,15 +317,11 @@ const Sidebar = ({ isVisible }) => {
           {renderContent("nasa")}
         </li>
         <li>
-          <button onClick={() => handleTopicClick("esa")}>
-            ESA Resources
-          </button>
+          <button onClick={() => handleTopicClick("esa")}>ESA Resources</button>
           {renderContent("esa")}
         </li>
         <li>
-          <button onClick={() => handleTopicClick("csa")}>
-            CSA Resources
-          </button>
+          <button onClick={() => handleTopicClick("csa")}>CSA Resources</button>
           {renderContent("csa")}
         </li>
         <li>
@@ -223,6 +335,10 @@ const Sidebar = ({ isVisible }) => {
             Tutorials & Educational Activities
           </button>
           {renderContent("tutorials")}
+        </li>
+        <li>
+          <button onClick={() => handleTopicClick("about")}>About Us</button>
+          {renderContent("about")}
         </li>
       </ul>
 
